@@ -1,8 +1,5 @@
 
-const backendOrigin = window.location.pathname.startsWith("/cliente/")
-    ? window.location.origin
-    : "http://127.0.0.1:8000";
-const API_URL = `${backendOrigin}/tareas`;
+const API_URL = "https://proyectofullstack-adso-nube-lr6r.onrender.com/tareas"
 
 // Elementos del DOM
 const formTarea = document.getElementById("form-tarea");
